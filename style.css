@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.container02{
+    color: #721c24;
+    padding: 35px;
+}
+
+.style{
+    background-color: #f8d7da; 
+    color: #721c24; 
+    padding: 10px; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 5px; 
+    margin-bottom: 4px;
+}
+
+
+.left-side {
+    width: 50%;
+    background-size: cover;
+    position: relative;
+    background-color: #7d3655;
+}
+
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+
+.right-side {
+    width: 50%;
+    background-color: #5c0028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+  
+}
+
+
+.user-icon {
+    width: 60px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    border-radius: 50%;
+    }
+
+h2 {
+    color: #5c0028;
+    margin-bottom: 20px;
+ }
+
+.input >label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #5c0028;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    background-color: #f4c2cfab;
+}
+
+.input input:focus{
+    border: 2px solid #6b0934;
+}
+
+ button {
+    background-color: #5c0028;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #5c0028;
+    border-radius: 20px;
+    font-weight: bold;
+   
+}
+
+.btn :hover{
+    background-color: #f8eef6;
+    color: #5c0028;
+}
+
+
+
+.footer {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+}
+
+.cadastro{
+    background-color: #DDAAAA;
+    height: 100vh; 
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-cad >label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #5c0028;
+    font-weight: bold;
+}
+
+.input-cad input:focus{
+    border: 2px solid #6b0934;
+}
+
+.register-box{
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #4b0a25;
+  width: 320px;
+  text-align: center;
+  display: block;
+}
+
+.link-conta{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.link-conta a {
+    color: #5c0028;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-conta a:hover{
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f9ff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #e8f0fe;
+}
+.botao {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color: #0056b3;
+}
+input, button {
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: #218838;
+}
